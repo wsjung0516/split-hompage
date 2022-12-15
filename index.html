@@ -12,7 +12,7 @@
     <div class="container mx-auto">
       <div class="bg-white py-12">
         <div class="px-4 sm:px-6 lg:px-8">
-          <p class="text-2xl mb-1.5">1. Split window </p>
+          <p class="text-2xl mb-4">Split window </p>
           <div>
             <video class="h-72" controls="">
               <source
@@ -27,6 +27,7 @@
           <p>program source : <a class="text-blue-700"
                                  href="https://github.com/wsjung0516/split-window220225">Source</a></p>
            <p>&nbsp;</p>
+           <hr class="my-8 h-px bg-gray-400 border-0 dark:bg-gray-700" />
           <p class="text-xl">Summary</p>
           <ol class="list-disc ml-6">
             <li>
@@ -53,6 +54,7 @@
               program was developed to enable image loading by immediately changing to another group.
             </li>
           </ol>
+          <hr class="my-8 h-px bg-gray-400 border-0 dark:bg-gray-700" />
           <p class="text-xl mt-8"> Caching image</p>
           <ol class="list-disc ml-6">
             <li> Since the user can randomly select an image category, all categories are in one cache.
@@ -68,6 +70,7 @@
               reading images from server and caching is also carried out concurrently.
             </li>
           </ol>
+          <hr class="my-8 h-px bg-gray-400 border-0 dark:bg-gray-700" />
           <p class="text-xl mt-8">Split window</p>
           <ol class="list-disc ml-6">
             <li> The grid (window split) function is difficult to customize when using the existing library.
@@ -95,6 +98,7 @@
               It is possible to control each split window.
             </li>
           </ol>
+          <hr class="my-8 h-px bg-gray-400 border-0 dark:bg-gray-700" />
           <p class="text-xl mt-8">Overall diagram</p>
           <div class="">
             <img src="assets/images/split-structure.png" width="600"/>
@@ -106,6 +110,7 @@
               images separated by category and in the middle on the screen</li>
             <li>  When split window is selected, it is displayed separately in grid form.</li>
           </ol>
+          <hr class="my-8 h-px bg-gray-400 border-0 dark:bg-gray-700" />
           <p class="text-xl mt-8">Main function description</p>
           <ol class="list-decimal ml-6 mt-2">
             <p>Below seq. no is related with above diagram.</p>
@@ -131,6 +136,7 @@
               When displaying on the screen, sorting by the selected category is performed using a separate webworker.
               </li>
           </ol>
+          <hr class="my-8 h-px bg-gray-400 border-0 dark:bg-gray-700" />
           <p class="text-xl mt-8">Main applied technology</p>
           <ol class="list-disc ml-6">
             <li> Angular: ver 12.2.0</li>
